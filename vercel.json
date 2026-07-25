@@ -10,8 +10,8 @@
     "APP_ENV": "production",
     "APP_DEBUG": "true",
     "APP_KEY": "base64:LkIgwrvTZ0mwyLFDrWO2QfuYEmOOqiW5Z5n0Iw2ko8s=",
-    "APP_STORAGE_RESPONSE_PATH": "/tmp",
-    "VIEW_COMPILED_PATH": "/tmp",
+    "APP_STORAGE_RESPONSE_PATH": "/tmp/storage",
+    "VIEW_COMPILED_PATH": "/tmp/storage/framework/views",
     "CACHE_DRIVER": "array",
     "LOG_CHANNEL": "stderr",
     "SESSION_DRIVER": "cookie"
