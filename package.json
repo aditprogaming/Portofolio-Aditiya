@@ -1,12 +1,12 @@
 {
     "private": true,
-    "type": "module",
     "engines": {
-        "node": "24.x"
+        "node": "20.x"
     },
-   "scripts": {
-    "dev": "vite",
-    "build": "echo 'Build bypassed'"
+   "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
   },
     "devDependencies": {
         "axios": "^1.7.4",
