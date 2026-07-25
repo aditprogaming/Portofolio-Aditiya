@@ -8,7 +8,7 @@
   },
   "env": {
     "APP_ENV": "production",
-    "APP_KEY": "base64:LklgwrvTZ0mwYLfDrWO2QfuYEmOOQiW5Z5n0Iw2ko8s=",
+    "APP_KEY": "base64:LkIgwrvTZ0mwyLFDrWO2QfuYEmOOqiW5Z5n0Iw2ko8s=",
     "APP_STORAGE_RESPONSE_PATH": "/tmp",
     "VIEW_COMPILED_PATH": "/tmp",
     "CACHE_DRIVER": "array",
