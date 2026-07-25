@@ -6,6 +6,15 @@
       "runtime": "vercel-php@0.8.0"
     }
   },
+  "env": {
+    "APP_ENV": "production",
+    "APP_KEY": "PASTE_APP_KEY_KAMU_DISINI",
+    "APP_STORAGE_RESPONSE_PATH": "/tmp",
+    "VIEW_COMPILED_PATH": "/tmp",
+    "CACHE_DRIVER": "array",
+    "LOG_CHANNEL": "stderr",
+    "SESSION_DRIVER": "cookie"
+  },
   "routes": [
     {
       "src": "/build/(.*)",
