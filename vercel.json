@@ -1,30 +1,18 @@
 {
     "version": 2,
-    "framework": null,
     "functions": {
         "api/index.php": {
-            "runtime": "vercel-php@0.6.0"
+            "runtime": "vercel-php@0.7.3"
         }
     },
-    "env": {
-        "VERCEL_PHP_VERSION": "8.2.0"
-    },
+    "builds": [
+        {
+            "src": "api/index.php",
+            "use": "vercel-php@0.7.3",
+            "config": { "maxLambdaSize": "15mb" }
+        }
+    ],
     "routes": [
-        {
-            "src": "/build/(.*)",
-            "dest": "/public/build/$1"
-        },
-        {
-            "src": "/favicon.ico",
-            "dest": "/public/favicon.ico"
-        },
-        {
-            "src": "/robots.txt",
-            "dest": "/public/robots.txt"
-        },
-        {
-            "src": "/(.*)",
-            "dest": "/api/index.php"
-        }
+        { "src": "/(.*)", "dest": "/api/index.php" }
     ]
 }
