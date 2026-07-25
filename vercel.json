@@ -3,11 +3,11 @@
     "framework": null,
     "functions": {
         "api/index.php": {
-            "runtime": "vercel-php@0.7.3"
+            "runtime": "vercel-php@0.6.0"
         }
     },
     "env": {
-        "VERCEL_PHP_VERSION": "8.2"
+        "VERCEL_PHP_VERSION": "8.2.0"
     },
     "routes": [
         {
