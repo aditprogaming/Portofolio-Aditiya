@@ -74,9 +74,13 @@
         }
     },
     "config": {
-    "optimize-autoloader": true,
+    "optimize-autoscaler": true,
     "preferred-install": "dist",
     "sort-packages": true,
+    "allow-plugins": {
+        "pestphp/pest-plugin": true,
+        "php-http/discovery": true
+    },
     "platform": {
         "php": "8.2.0"
     }
