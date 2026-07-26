@@ -15,7 +15,9 @@
       "dest": "/api/index.php"
     }
   ],
-  "env": {
-    "PHP_VERSION": "8.3"
+  "build": {
+    "env": {
+      "PHP_VERSION": "8.2.0"
+    }
   }
 }
